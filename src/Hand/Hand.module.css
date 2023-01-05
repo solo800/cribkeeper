@@ -1,0 +1,30 @@
+.hearts,
+.diamonds {
+    color: red;
+}
+
+.clubs,
+.spades {
+    color: black;
+}
+
+.hand {
+    width: 50%;
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0.5%;
+    border: 1px solid black;
+    height: 3rem;
+}
+
+.card:hover {
+    cursor: pointer;
+    transition: background-color 0.5s;
+    background-color: lightgray;
+}
